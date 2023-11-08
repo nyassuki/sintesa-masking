@@ -1,0 +1,460 @@
+CRITICAL - 2023-07-05 02:37:13 --> Undefined variable $title
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/contact_display.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 15)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(25): view('admin/address-b...')
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 02:44:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#3 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(25): view('admin/address-b...', Array)
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#9 {main}
+CRITICAL - 2023-07-05 02:48:26 --> Too few arguments to function App\Models\ClientModel::list(), 0 passed in /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php on line 28 and exactly 1 expected
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(28): App\Models\ClientModel->list()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 02:48:36 --> Undefined variable $addressbook
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/contact_display.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 88)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(30): view('admin/address-b...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 03:10:58 --> Attempt to read property "avatar" on string
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/contact_display.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/yassuki/...', 52)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(30): view('admin/address-b...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 03:12:24 --> Attempt to read property "avatar" on string
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/contact_display.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/yassuki/...', 52)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(30): view('admin/address-b...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 03:12:25 --> Attempt to read property "avatar" on string
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/contact_display.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/yassuki/...', 52)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(30): view('admin/address-b...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 03:27:24 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 37)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:28:42 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:29:01 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:29:27 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:32:54 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:25 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:29 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:31 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:31 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:31 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:31 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:31 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:32 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:32 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:32 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:32 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:32 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:32 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:33 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 03:48:33 --> Undefined variable $client_id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 38)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->UpdateClient()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 04:15:32 --> Undefined variable $contact_logo
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/contact_display.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 103)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/contact_display.php(31): view('admin/address-b...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\contact_display->index()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\contact_display))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 04:46:51 --> Undefined variable $company
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/users/add_users.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 172)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/users/add...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/UserManagement.php(70): view('admin/users/add...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\UserManagement->add_user()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserManagement))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 04:49:18 --> Undefined property: stdClass::$id
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/users/add_users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/yassuki/...', 173)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/users/add...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/UserManagement.php(74): view('admin/users/add...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\UserManagement->add_user()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserManagement))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 06:19:05 --> Call to a member function getValue() on null
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\SecureAPI->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('api/lisence', 'before')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#5 {main}
+CRITICAL - 2023-07-05 06:20:26 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:21:19 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:21:44 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:22:31 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:22:31 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:22:31 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:22:31 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:22:31 --> Call to undefined method App\Controllers\Api\lisence::initController()
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#4 {main}
+CRITICAL - 2023-07-05 06:26:41 --> Attempt to read property "server_name" on null
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Api/lisence.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/yassuki/...', 24)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Api\lisence->index()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\lisence))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 06:26:52 --> Attempt to read property "server_name" on null
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Api/lisence.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/yassuki/...', 24)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Api\lisence->index()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\lisence))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 06:27:37 --> Attempt to read property "server_name" on null
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Api/lisence.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/yassuki/...', 24)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Api\lisence->index()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\lisence))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 08:31:58 --> Cannot use App\Models\UserModel as UserModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-05 08:32:20 --> Call to undefined function App\Models\get()
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/address_book.php(35): App\Models\ClientModel->getClient('GLOB')
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\address_book->list()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\address_book))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 08:32:49 --> Call to undefined function App\Models\get()
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/address_book.php(35): App\Models\ClientModel->getClient('GLOB')
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\address_book->list()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\address_book))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 08:33:09 --> Undefined array key "contact_display_name"
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/address_book.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/yassuki/...', 35)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\address_book->list()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\address_book))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 08:33:10 --> Undefined array key "contact_display_name"
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/address_book.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/yassuki/...', 35)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\address_book->list()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\address_book))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 08:33:45 --> Undefined variable $display_name
+#0 /Users/yassuki/works/web/address_book/morelab/app/Views/admin/address-book/address-book.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 53)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/yassuki/...')
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/address-b...', Array, true)
+#4 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/address_book.php(60): view('admin/address-b...', Array)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\address_book->save()
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\address_book))
+#7 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#10 {main}
+CRITICAL - 2023-07-05 09:45:43 --> Class "App\Controllers\Admin\DeviceManagemntModel" not found
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin\PushNumber->__construct()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#5 {main}
+CRITICAL - 2023-07-05 09:45:56 --> Class "App\Controllers\Admin\DeviceManagemntModel" not found
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin\PushNumber->__construct()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#5 {main}
+CRITICAL - 2023-07-05 09:46:04 --> Class "App\Controllers\Admin\DeviceManagemntModel" not found
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin\PushNumber->__construct()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#5 {main}
+CRITICAL - 2023-07-05 09:46:28 --> Undefined property: App\Controllers\Admin\PushNumber::$ClientModel
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/PushNumber.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/yassuki/...', 23)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\PushNumber->push()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PushNumber))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 09:47:02 --> Undefined array key "pusher_cluster"
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/PushNumber.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/yassuki/...', 27)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\PushNumber->push()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PushNumber))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 09:47:59 --> Class "App\Controllers\Admin\Pusher\Pusher" not found
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\PushNumber->push()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PushNumber))
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#5 {main}
+CRITICAL - 2023-07-05 09:48:22 --> Undefined variable $event
+#0 /Users/yassuki/works/web/address_book/morelab/app/Controllers/Admin/PushNumber.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/yassuki/...', 48)
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\PushNumber->push()
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PushNumber))
+#3 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#6 {main}
+CRITICAL - 2023-07-05 09:54:02 --> Undefined constant "App\Controllers\Admin\Phonenumber"
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\PushNumber->push()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PushNumber))
+#2 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#5 {main}

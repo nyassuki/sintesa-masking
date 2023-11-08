@@ -1,0 +1,13 @@
+ERROR - 2023-10-26 23:02:05 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-10-26 23:02:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/yassuki/works/web/address_book/morelab/app/Helpers/custom_helper.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/yassuki/works/web/address_book/morelab/app/Filters/Maintenance.php(16): get_general_settings()
+#4 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Maintenance->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/yassuki/works/web/address_book/morelab/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/yassuki/works/web/address_book/morelab/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/yassuki/...')
+#9 {main}
